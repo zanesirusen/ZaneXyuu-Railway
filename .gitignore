@@ -1,0 +1,16 @@
+node_modules/
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+npm-debug.log*
+.vite/
+.DS_Store
+Thumbs.db
+.vercel/
+coverage/
+**/.cache/
+
+# Keep project files but ignore local secrets
+# Add any extra local config here if needed

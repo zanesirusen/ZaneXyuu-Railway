@@ -1,0 +1,23 @@
+{
+  "name": "zanexyuu-asset-uploader",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "check": "node --check server.js",
+    "test": "node --test test/*.test.js"
+  },
+  "dependencies": {
+    "busboy": "^1.6.0",
+    "ffmpeg-static": "^5.2.0",
+    "pg": "^8.16.3"
+  },
+  "allowScripts": {
+    "ffmpeg-static@5.3.0": true
+  }
+}
